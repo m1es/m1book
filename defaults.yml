@@ -1,0 +1,7 @@
+input_folder: ./src
+output_file: ./build/output.pdf
+title: The book title 
+subtitle: The subtitle 
+author: The author
+toc_title: Table of contents 
+fontsize: 11pt

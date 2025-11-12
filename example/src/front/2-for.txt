@@ -1,0 +1,7 @@
+\newpage
+\vspace*{\fill}
+\begin{center}
+For the ones I hold dear
+\end{center}
+\vspace*{\fill}
+\thispagestyle{empty}

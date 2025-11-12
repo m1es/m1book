@@ -1,0 +1,12 @@
+\newpage
+\vspace*{\fill}
+
+\begin{center}
+© 2025 The Author 
+\end{center}
+
+\begin{center}
+\small First print. October 2025.
+\end{center}
+
+\thispagestyle{empty}
