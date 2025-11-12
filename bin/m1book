@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.expand_path('../lib', __dir__)
+$ROOT_PATH = __dir__ + '/..'
+
+require 'bundler/inline'
+
+gemfile do
+  ruby '>= 3.4.0'
+
+  source 'https://rubygems.org'
+
+  gem 'thor'
+end
+
+require 'cli'
+
+M1Book::Cli.start
