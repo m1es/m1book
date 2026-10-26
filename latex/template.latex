@@ -74,6 +74,7 @@ $endif$
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$$endif$}
 $endif$
+\makeatletter\let\ps@plain\ps@empty\makeatother % hide page numbers on every TOC page, not just the last one
 \setcounter{tocdepth}{$toc-depth$}
 \tableofcontents
 \thispagestyle{empty}
