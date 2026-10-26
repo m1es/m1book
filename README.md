@@ -30,13 +30,16 @@ To install `m1book` on your machine:
 
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
 - [Pandoc](https://pandoc.org/)
+- A LaTeX distribution that provides `xelatex` and `tlmgr`, e.g. [BasicTeX](https://www.tug.org/mactex/morepackages.html) or [MacTeX](https://www.tug.org/mactex/)
 
-The following Latex packages are required:
+The following LaTeX packages are required:
 
-- collection-fontsrecommended
-- sectsty
+- titlesec
+- fancyhdr
+- caption
 
 These packages can be installed by running:
 
-- `tlmgr install collection-fontsrecommended`
-- `tlmgr install sectsty`
+- `tlmgr install titlesec`
+- `tlmgr install fancyhdr`
+- `tlmgr install caption`
